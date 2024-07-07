@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/mocha-framework",
+            
+        ]
+        
+    },
+    "include": [
+        "test/spec/*.js",
+        "**/*.json",
+        "node_module/@wdio/sync",
+        "node_module/@wdio/mocha-framework"
+    ]
+}
